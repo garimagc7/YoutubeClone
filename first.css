@@ -1,0 +1,84 @@
+
+.thubnail-picture{
+    width: 320px;
+    height: auto;
+    object-fit: contain;
+    object-position: top;
+    margin-top: 0px;
+    border-radius: 5%;
+}
+.video-box{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 320px;
+    
+}
+.video-box:hover{
+    background-color: antiquewhite;
+    border-radius: 10%;
+}
+.thubnail-pic{
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+.channel-picture{
+    display: inline-block;
+    width: 30px;
+    vertical-align: top;
+    border-radius: 50%;
+}
+.channel-img{
+    width: 30px;
+}
+.video-info{
+    display: inline-block;
+    width: 280px; 
+    margin-top: 0px;
+    
+}
+.video-tittle{
+    display: inline-block;
+    font-size: 16px;
+    color: #0f0f0f;
+    font-weight: 450;
+    width: 250px;
+}
+.button1{
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    width: 30px;
+    display: inline-block;
+    
+}
+.button1:hover{
+    border: 1px solid #C0C0C0;
+    background-color: #C0C0C0;
+    border-radius: 50%;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+p{
+    font-family: "Roboto", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.channel-name{
+    font-size: 14px;
+    color: #606060;
+}
+.video-in{
+    font-size: 14px;
+    color: #606060;
+
+}
+.all-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
