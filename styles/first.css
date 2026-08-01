@@ -74,6 +74,7 @@
 .video-grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 0px;
+    column-gap: 20px;
     row-gap: 30px;
+    margin-left:80px;
 }
