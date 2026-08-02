@@ -1,9 +1,26 @@
 .sidebar{
     position: fixed;
     left:0;
-    top: 60px;
-    buttom: 0px;
+    top: 55px;
+    bottom: 0px;
     background-color: white;
-    width: 90px;
+    width: 72px;
     height: 100%;
+    z-index: 98;
+    margin-top: 3px;
+}
+.sidebar-link{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    font-size: 11px;
+    padding: 20px; 
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-link:hover{
+    background-color: #f2f2f2;
+    border-radius: 10px;
 }
